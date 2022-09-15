@@ -8,7 +8,11 @@ Let us evaluate expressions for matrix elements of one- and two-particle effecti
 
 $$ V^{\text{eff}}_{IJ} = \langle \Phi_I |  \hat{V}^{\text{eff}} | \Phi_J \rangle, $$
 
-$$ \hat{V}^{\text{eff}} = \hat{V}^{0h1p} + \hat{V}^{0h2p} = \sum_{pq} V^{0h1p}_{pq} \{ p^\dagger q \} + \sum_{pqrs} V^{0h2p}_{pqrs} \{ p^\dagger q^\dagger s r \}, $$
+$$ \hat{V}^{\text{eff}} = \hat{V}^{0h1p} + \hat{V}^{0h2p}, $$
+
+$$  \hat{V}^{0h1p} = \sum_{pq} V^{0h1p}_{pq} \{ p^\dagger q \}, $$
+
+$$ \hat{V}^{0h2p} = \sum_{pqrs} V^{0h2p}_{pqrs} \{ p^\dagger q^\dagger s r \}, $$
 
 $$\langle \Phi_I| = \langle \Phi^{ab} | =  \langle \Phi_0 | b a, $$
 
