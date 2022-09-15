@@ -10,13 +10,13 @@ $$ V^{\text{eff}}_{IJ} = \langle \Phi_I |  \hat{V}^{\text{eff}} | \Phi_J \rangle
 
 $$ \hat{V}^{\text{eff}} = \hat{V}^{0h1p} + \hat{V}^{0h2p}, $$
 
-$$  \hat{V}^{0h1p} = \sum_{pq} V^{0h1p}_{pq} { p^\dagger q }, $$
+$$  \hat{V}^{0h1p} = \sum_{pq} V^{0h1p}_{pq} \{ a_p^\dagger a_q \}, $$
 
-$$ \hat{V}^{0h2p} = \sum_{pqrs} V^{0h2p}_{pqrs} \{ p^\dagger q^\dagger s r \}, $$
+$$ \hat{V}^{0h2p} = \sum_{pqrs} V^{0h2p}_{pqrs} \{ a_p^\dagger a_q^\dagger a_s a_r \}, $$
 
-$$\langle \Phi_I| = \langle \Phi^{ab} | =  \langle \Phi_0 | b a, $$
+$$\langle \Phi_I| = \langle \Phi^{ab} | =  \langle \Phi_0 | a_b a_a, $$
 
-$$|\Phi_J\rangle = |\Phi^{cd} \rangle = c^\dagger d^\dagger |\Phi_0\rangle, $$
+$$|\Phi_J\rangle = |\Phi^{cd} \rangle = a_c^\dagger a_d^\dagger |\Phi_0\rangle, $$
 
 where $V^{\text{eff}}$ stands for the effective interaction operator, $|\Phi_{I}\rangle$ and $|\Phi_{J}\rangle$ stand for model space Slater determinants and $|\Phi_0\rangle$ denotes the vacuum determinant (typically the closed-shell Hartree-Fock one). All indices <i>a</i>, <i>b</i>, <i>p</i>, <i>q</i>, ...  run over active space spin-orbitals (or spinors in the relativistic case).
 
