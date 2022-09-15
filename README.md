@@ -7,9 +7,13 @@ Automated generation of expressions for matrix elements of arbitrary n-particle 
 Let us evaluate expressions for matrix elements of one- and two-particle effective interaction operators in the (0h2p) Fock space sector. These expressions will be used to construct effective Hamiltonian operator in the Fock-space multireference coupled cluster calculation. We have (in terms of second-quantized operators):
 
 $$ V^{\text{eff}}_{IJ} = \langle \Phi_I |  \hat{V}^{\text{eff}} | \Phi_J \rangle, $$
+
 $$ \hat{V}^{\text{eff}} = \hat{V}^{0h1p} + \hat{V}^{0h2p} = \sum_{pq} V^{0h1p}_{pq} \{ p^\dagger q \} + \sum_{pqrs} V^{0h2p}_{pqrs} \{ p^\dagger q^\dagger s r \}, $$
+
 $$\langle \Phi_I| = \langle \Phi^{ab} | =  \langle \Phi_0 | b a, $$
+
 $$|\Phi_J\rangle = |\Phi^{cd} \rangle = c^\dagger d^\dagger |\Phi_0\rangle, $$
+
 where $V^{\text{eff}}$ stands for the effective interaction operator, $|\Phi_{I}\rangle$ and $|\Phi_{J}\rangle$ stand for model space Slater determinants and $|\Phi_0\rangle$ denotes the vacuum determinant (typically the closed-shell Hartree-Fock one). All indices <i>a</i>, <i>b</i>, <i>p</i>, <i>q</i>, ...  run over active space spin-orbitals (or spinors in the relativistic case).
 
 The input file for <tt>wick</tt> contains definitions of both one- and two-particle interaction operators and bra/ket Slater determinants:
